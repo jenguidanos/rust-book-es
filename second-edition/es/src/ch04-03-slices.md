@@ -40,7 +40,7 @@ fn first_word(s: &String) -> usize {
 <span class="caption">Listing 4-7: La función `first_word` que devuelve un valor de
 índice de bytes en el parámetro `String`</span>
 
-Debido a que necesitamos pasar por el elemento `String` por elemento y
+Debido a que necesitamos recorrer el `String` elemento por elemento y
 comprobar si un valor es un espacio, convertiremos nuestro `String`
 a una matriz de bytes utilizando el método `as_bytes`:
 
